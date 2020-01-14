@@ -18,14 +18,6 @@ def reduce(source_array, starting_point = nil)
   
   else
   end
- index = 0
-    while index < source_array.length do
-  
-     yield(source_array[index])
-  
-     new.push(yield(source_array[index]))
-     index += 1
-    end
-  new
+ i
 end
 
