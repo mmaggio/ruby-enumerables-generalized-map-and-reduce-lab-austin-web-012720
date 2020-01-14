@@ -15,9 +15,12 @@ end
     
 def reduce(source_array, starting_point = nil)
   if starting_value
-  
-  else
-  end
+    index = 0
+    num1 = starting_value
+    else
+      index = 1
+      num1 = source_array[0]
+   end
  i
 end
 
