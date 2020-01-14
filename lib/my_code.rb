@@ -7,6 +7,9 @@ def map(source_array)
   
   yield(source_array[index])
   
+  new << 
+  index += 1
+  
   map
   
 end
