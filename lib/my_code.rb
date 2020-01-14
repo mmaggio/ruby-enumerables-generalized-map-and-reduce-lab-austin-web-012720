@@ -11,11 +11,10 @@ def map(source_array)
      index += 1
     end
   new
-  map {|n| n * -1 }
   
 end
     
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = nil)
   new = []
 
 
