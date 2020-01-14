@@ -10,7 +10,7 @@ def map(source_array)
      new.push(yield(source_array[index]))
      index += 1
     end
-
+  new
   map {|n| n * -1 }
   
 end
