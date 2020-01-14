@@ -1,10 +1,8 @@
 # Your Code Here
 
-def generalized_map(source_array)
+def negativize(source_array)
+  map(source_array) do |num|
+    
   
-end
 
-def generalized_reduce (source_array, starting_value = 0)
- 
-end
 
