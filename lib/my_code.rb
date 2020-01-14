@@ -14,7 +14,10 @@ def map(source_array)
 end
     
 def reduce(source_array, starting_point = nil)
-  new = []
+  if starting_value
+  
+  else
+  end
  index = 0
     while index < source_array.length do
   
