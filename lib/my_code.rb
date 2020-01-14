@@ -21,6 +21,8 @@ def reduce(source_array, starting_point = nil)
       index = 1
       num1 = source_array[0]
    end
- i
+ 
+   while index < source_array.length do
+     yield(num1, source_array[index])
 end
 
