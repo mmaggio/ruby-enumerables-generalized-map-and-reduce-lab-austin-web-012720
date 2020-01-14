@@ -14,15 +14,15 @@ def map(source_array)
 end
     
 def reduce(source_array, starting_point = nil)
-  if starting_value
-    index = 0
-    num1 = starting_value
+    if starting_value
+      index = 0
+      sum = starting_value
     else
       index = 1
-      num1 = source_array[0]
+      sum = source_array[0]
    end
  
    while index < source_array.length do
-     yield(num1, source_array[index])
+     yield(sum, source_array[index])
 end
 
