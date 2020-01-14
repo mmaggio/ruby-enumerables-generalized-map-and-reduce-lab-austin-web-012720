@@ -13,7 +13,7 @@ def map(source_array)
   new
 end
     
-def reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_value = nil)
     if starting_value
       index = 0
       sum = starting_value
